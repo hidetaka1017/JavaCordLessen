@@ -1,0 +1,12 @@
+//入力した電気代を計算するクラス
+public class Main {
+	    public static void main(String[] args) {
+	        // 自分の得意な言語で
+	        // Let's チャレンジ！！
+	        Scanner sc = new Scanner(System.in);
+	        int wat = sc.nextInt();
+	        int wats = wat * 25 * 24;
+	        String dayWat = Integer.valueOf(wats).toString();
+	        System.out.println(dayWat);
+	    }
+	}
