@@ -2,6 +2,7 @@ package algorizum;
 
 import java.util.Scanner;
 
+//入力した値を出力するクラス
 public class Sample {
 
 	public static void main(String[] args) {
