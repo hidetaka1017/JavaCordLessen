@@ -1,0 +1,20 @@
+package algorizum;
+
+import java.util.Scanner;
+
+//米１合あたり150gとしてN合の場合のグラム数を求めるクラス
+public class KomeOutput {
+
+	public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        if (1 <= N & N <= 20){
+            int komeryou = N * 150;
+            System.out.println(komeryou);
+        }
+        
+    }
+	
+
+}
