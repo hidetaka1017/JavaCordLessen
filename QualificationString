@@ -1,0 +1,18 @@
+//入力した文字を + で修飾して出力したクラス
+public class QualificationString {
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        if (1 <= S.length() & S.length() <= 100){
+        	for (int i = 1; i <= 3; i++) {
+        		if (i == 1 || i == 3) {
+        			String str = String.join("", Collections.nCopies(S.length() + 2, "+"));
+                	System.out.println(str);
+        		} else {
+        			String str = "+" + S + "+";
+        			System.out.println(str);
+        		}
+        	}
+        }
+    }
+}
